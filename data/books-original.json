@@ -1,0 +1,47 @@
+[
+    {
+      "isbn": "9781593275846",
+      "title": "Eloquent JavaScript, Second Edition",
+      "authorID": "1"
+    },
+    {
+      "isbn": "9781449331818",
+      "title": "Learning JavaScript Design Patterns",
+      "author": "2"
+    },
+    {
+      "isbn": "9781449365035",
+      "title": "Speaking JavaScript",
+      "author": "3"
+    },
+    {
+      "isbn": "9781491950296",
+      "title": "Programming JavaScript Applications",
+      "author": "4"
+    },
+    {
+      "isbn": "9781593277574",
+      "title": "Understanding ECMAScript 6",
+      "author": "5"
+    },
+    {
+      "isbn": "9781491904244",
+      "title": "You Don't Know JS",
+      "author": "6"
+    },
+    {
+      "isbn": "9781449325862",
+      "title": "Git Pocket Guide",
+      "author": "7"
+    },
+    {
+      "isbn": "9781449337711",
+      "title": "Designing Evolvable Web APIs with ASP.NET",
+      "author": "8"
+    },
+    {
+      "isbn": "9781491950297",
+      "title": "The Composing Software",
+      "authorID": "4"
+    }
+  ]

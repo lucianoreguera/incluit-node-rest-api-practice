@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Marijn",
+        "lastname": "Haverbeke"
+    },
+    {
+        "id": 2,
+        "name": "Addy",
+        "lastname": "Osmani"
+    },
+    {
+        "id": 3,
+        "name": "Axel",
+        "lastname": "Rauschmayer"
+    },
+    {
+        "id": 4,
+        "name": "Eric",
+        "lastname": "Elliott"
+    },
+    {
+        "id": 5,
+        "name": "Nicholas",
+        "lastname": "Zakas"
+    },
+    {
+        "id": 6,
+        "name": "Kyle",
+        "lastname": "Simpson"
+    },
+    {
+        "id": 7,
+        "name": "Richard",
+        "lastname": "Silverman"
+    },
+    {
+        "id": 8,
+        "name": "Glenn",
+        "lastname": "Block"
+    }
+]

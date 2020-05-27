@@ -1,0 +1,266 @@
+{
+	"info": {
+		"_postman_id": "c19368b6-d2f8-4a27-b493-7193dc1cd796",
+		"name": "incluit-rest-api-books",
+		"description": "Incluit. Practice rest api.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "books",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/books",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/books",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"books"
+							]
+						},
+						"description": "2- Get all books with the author"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/books",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title\": \"GraphQL\",\n\t\"authorID\": \"8\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/books",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"books"
+							]
+						},
+						"description": "4- Add a book"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/books/3",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title\": \"Speaking JavaScript V2\",\n\t\"authorID\": \"3\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/books/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"books",
+								"3"
+							]
+						},
+						"description": "6- Modify a book"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/books/3",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/books/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"books",
+								"3"
+							]
+						},
+						"description": "8- Delete a book"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "authors",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/authors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/authors",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"authors"
+							]
+						},
+						"description": "1- Get all authors"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/authors",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Javier\",\n\t\"lastname\": \"Ceballos\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/authors",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"authors"
+							]
+						},
+						"description": "3- Add an author"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/authors/8",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Javier C.\",\n\t\"lastname\": \"Ceballos\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/authors/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"authors",
+								"3"
+							]
+						},
+						"description": "5- Modify an author"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/authors/4",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/authors/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"authors",
+								"4"
+							]
+						},
+						"description": "7- Delete a author"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
